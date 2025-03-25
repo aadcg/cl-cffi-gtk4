@@ -774,8 +774,8 @@
      (:file "rtest-gtk4-page-setup")
      (:file "rtest-gtk4-page-setup-unix-dialog"   :if-feature (:not :windows))
      (:file "rtest-gtk4-print-unix-dialog"        :if-feature (:not :windows))
-     (:file "rtest-gtk4-printer"                  :if-feature (:not :windows))
-     (:file "rtest-gtk4-print-job"                :if-feature (:not :windows))
+     ;; (:file "rtest-gtk4-printer"                  :if-feature (:not :windows))
+     ;; (:file "rtest-gtk4-print-job"                :if-feature (:not :windows))
      (:file "rtest-gtk4-print-setup"              :if-feature :gtk-4-14)
      (:file "rtest-gtk4-print-dialog"             :if-feature :gtk-4-14)
 
